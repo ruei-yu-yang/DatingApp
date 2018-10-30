@@ -1,3 +1,4 @@
-.vs/DatingApp.API/v15/Server/sqlite3/db.lock
-.vs/DatingApp.API/v15/Server/sqlite3/storage.ide
-.vs/DatingApp.API/v15/Server/sqlite3/storage.ide-shm
+.vs
+bin
+obj
+*.db
