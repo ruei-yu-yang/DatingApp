@@ -49,7 +49,7 @@ namespace DatingApp.API.Migrations
 
                     b.Property<DateTime>("Created");
 
-                    b.Property<DateTime>("DateOfBirthday");
+                    b.Property<DateTime>("DateOfBirth");
 
                     b.Property<string>("Gender");
 
