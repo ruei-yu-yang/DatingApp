@@ -33,7 +33,7 @@ namespace DatingApp.API.Data
         public async Task<IEnumerable<User>> GetUsers()
         {
             var users = await _context.Users.Include(p=>p.Photos).ToListAsync();
-            return User;
+            return users;
         }
 
         public async Task<bool> SaveAll()
