@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DatingApp.API.Dtos
 {
@@ -12,6 +9,6 @@ namespace DatingApp.API.Dtos
         public string Description { get; set; }
         public DateTime DateAdded { get; set; }
         public bool IsMain { get; set; }
-        public int PublicId { get; set; }
+        public string PublicId { get; set; }
     }
 }
